@@ -1,3 +1,4 @@
+# Problem description said I couldn't use other datastructures. Apparently I'm allowed to use arrays. I would have done this differently if I would have known that.
 def unique(word)
   word.chars.each_with_index do |letter, index|
     if index != 0
